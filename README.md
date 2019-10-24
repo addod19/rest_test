@@ -19,7 +19,7 @@ Test script
 - Did a get request using
 
 ```
-require 'rest-client'
+  require 'rest-client'
   url = "http://localhost:3000"
 
   puts RestClient.get(url)
