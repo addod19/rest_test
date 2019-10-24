@@ -1,5 +1,7 @@
-require 'rest-client'
-url = "http://localhost:3000/users"
+# frozen_string_literal: true
 
-res = RestClient.post(url, "")
+require 'rest-client'
+url = 'http://localhost:3000/users'
+
+res = RestClient.post(url, '')
 puts res.code
