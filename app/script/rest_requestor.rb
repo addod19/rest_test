@@ -1,4 +1,5 @@
 require 'rest-client'
 url = "http://localhost:3000/users"
 
-puts RestClient.get(url)
+res = RestClient.post(url, "")
+puts res.code
