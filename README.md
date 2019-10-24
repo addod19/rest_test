@@ -4,7 +4,7 @@
 
 Rails application interaction from the command line by sending requests manually
 
-Application skeleton
+### Application skeleton
 
 - rails new rest_test
 
@@ -12,7 +12,7 @@ Application skeleton
 
 - Verification by using `rake routes`
 
-Test script
+### Test script
 
 - Created a blank file at `app/script/rest_requestor.rb`
 
@@ -25,13 +25,13 @@ Test script
   puts RestClient.get(url)
 ```
 
-Sending Requests
+### Sending Requests
 
 - Run the script using `ruby app/script/rest_requestor.rb`
 
 - Show and fixed all the errors.
 
-Sending Non-GET requests
+### Sending Non-GET requests
 
 - Updated the script to make a simple POST #post request sending no data `RestClient.post(url,"")`
 
