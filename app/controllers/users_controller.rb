@@ -1,8 +1,9 @@
-class UsersController < ApplicationController
-    def index
-        @name = 'I am the index action'
-    end
+# frozen_string_literal: true
 
-    def create
-    end
+class UsersController < ApplicationController
+  def index
+    @name = 'I am the index action'
+  end
+
+  def create; end
 end
