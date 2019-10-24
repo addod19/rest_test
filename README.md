@@ -36,3 +36,10 @@ Rails application interaction from the command line by sending requests manually
 - Updated the script to make a simple POST #post request sending no data `RestClient.post(url,"")`
 
 - Learned about the authentication errors when using POST commands from terminal.
+
+
+### Contributors
+
+- Daniel Addo
+
+- Nick Haralampopoulos
