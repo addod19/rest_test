@@ -289,3 +289,38 @@ puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
 puma (3.12.1) lib/puma/server.rb:474:in `process_client'
 puma (3.12.1) lib/puma/server.rb:334:in `block in run'
 puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/users" for 127.0.0.1 at 2019-10-24 10:21:50 +0000
+Processing by UsersController#index as */*
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 2657ms (Views: 2643.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-10-24 10:22:16 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/daniel/.rbenv/versions/2.6.4/lib/ruby/gems/2.6.0/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/daniel/.rbenv/versions/2.6.4/lib/ruby/gems/2.6.0/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb (6.4ms)
+Completed 200 OK in 35ms (Views: 10.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for ::1 at 2019-10-24 10:22:24 +0000
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 38ms (Views: 36.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2019-10-24 10:24:14 +0000
+Processing by UsersController#index as */*
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 43ms (Views: 37.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for ::1 at 2019-10-24 10:24:24 +0000
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 39ms (Views: 37.2ms | ActiveRecord: 0.0ms)
+
+
