@@ -1,24 +1,38 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Rest-client testing using terminal commands
 
-Things you may want to cover:
+Rails application interaction from the command line by sending requests manually
 
-* Ruby version
+Application skeleton
 
-* System dependencies
+- rails new rest_test
 
-* Configuration
+- Add `resources :users` to `config/routes.rb`
 
-* Database creation
+- Verification by using `rake routes`
 
-* Database initialization
+Test script
 
-* How to run the test suite
+- Created a blank file at `app/script/rest_requestor.rb`
 
-* Services (job queues, cache servers, search engines, etc.)
+- Did a get request using
 
-* Deployment instructions
+```
+require 'rest-client'
+  url = "http://localhost:3000"
 
-* ...
+  puts RestClient.get(url)
+```
+
+Sending Requests
+
+- Run the script using `ruby app/script/rest_requestor.rb`
+
+- Show and fixed all the errors.
+
+Sending Non-GET requests
+
+- Updated the script to make a simple POST #post request sending no data `RestClient.post(url,"")`
+
+- Learned about the authentication errors when using POST commands from terminal.
