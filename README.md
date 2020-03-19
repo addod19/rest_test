@@ -1,4 +1,3 @@
-# README
 
 ## Rest-client testing using terminal commands
 
