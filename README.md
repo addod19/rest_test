@@ -38,8 +38,19 @@ Rails application interaction from the command line by sending requests manually
 - Learned about the authentication errors when using POST commands from terminal.
 
 
-### Contributors
+## Authors
 
-- Daniel Addo
+👤 **Author1**
 
-- Nick Haralampopoulos
+- Github: [@addod19](https://github.com/addod19)
+- Twitter: [@DanielLarbiAdd1](https://twitter.com/DanielLarbiAdd1)
+- Linkedin: [Daniel Larbi Addo](https://linkedin.com/in/daniel-larbi-addo/)
+
+
+👤 **Author2**
+
+- Github: [@macnick](https://github.com/macnick)
+- Twitter: [@mac_experts](https://twitter.com/mac_experts)
+- Linkedin: [Nick Haralampopoulos](https://www.linkedin.com/in/nick-haralampopoulos/)
+
+
