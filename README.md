@@ -1,4 +1,3 @@
-# README
 
 ## Rest-client testing using terminal commands
 
@@ -16,7 +15,7 @@ Rails application interaction from the command line by sending requests manually
 
 - Created a blank file at `app/script/rest_requestor.rb`
 
-- Did a get request using
+- Perform a ```get``` request using
 
 ```
   require 'rest-client'
@@ -33,13 +32,45 @@ Rails application interaction from the command line by sending requests manually
 
 ### Sending Non-GET requests
 
-- Updated the script to make a simple POST #post request sending no data `RestClient.post(url,"")`
+- Updated the script to make a simple ***POST*** ```post``` request sending no data `RestClient.post(url,"")`
 
 - Learned about the authentication errors when using POST commands from terminal.
 
 
-### Contributors
+## Authors
 
-- Daniel Addo
+👤 **Author1**
 
-- Nick Haralampopoulos
+- Github: [@addod19](https://github.com/addod19)
+- Twitter: [@DanielLarbiAdd1](https://twitter.com/DanielLarbiAdd1)
+- Linkedin: [Daniel Larbi Addo](https://linkedin.com/in/daniel-larbi-addo/)
+
+
+👤 **Author2**
+
+- Github: [@macnick](https://github.com/macnick)
+- Twitter: [@mac_experts](https://twitter.com/mac_experts)
+- Linkedin: [Nick Haralampopoulos](https://www.linkedin.com/in/nick-haralampopoulos/)
+
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/addod19/rest_test/issues).
+
+1. Fork it (https://github.com/addod19/rest_test/fork )
+2. Create your feature branch (git checkout -b my-new-feature)
+3. Commit your changes (git commit -am 'Add some feature')
+4. Push to the branch (git push origin my-new-feature)
+5. Create a new Pull Request
+
+## Show your support
+
+Give us a ⭐️ if you like this project!
+
+## 📝 License
+
+This project is [MiT](LICENSE) licensed.
+
+
