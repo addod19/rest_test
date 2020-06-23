@@ -39,14 +39,14 @@ Rails application interaction from the command line by sending requests manually
 
 ## Authors
 
-👤 **Author1**
+👤 **Daniel Larbi Addo**
 
 - Github: [@addod19](https://github.com/addod19)
 - Twitter: [@DanielLarbiAdd1](https://twitter.com/DanielLarbiAdd1)
 - Linkedin: [Daniel Larbi Addo](https://linkedin.com/in/daniel-larbi-addo/)
 
 
-👤 **Author2**
+👤 **Nick Haralampopoulos**
 
 - Github: [@macnick](https://github.com/macnick)
 - Twitter: [@mac_experts](https://twitter.com/mac_experts)
